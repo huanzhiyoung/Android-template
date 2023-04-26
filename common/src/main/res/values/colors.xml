@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--紫色-->
+    <color name="base_purple">#9a59b5</color>
+    <!--靛蓝-->
+    <color name="base_indigo">#009cc3</color>
+    <!--蓝色-->
+    <color name="base_blue">#3598db</color>
+    <!--红色-->
+    <color name="base_red">#c1392b</color>
+    <!--绿色-->
+    <color name="base_green">#27ae61</color>
+    <!--黄色-->
+    <color name="base_yellow">#ffc000</color>
+    <!--灰色-->
+    <color name="base_gray">#bec3c7</color>
+    <!--字体颜色-->
+    <color name="base_text_color_000000">#000000</color>
+    <!--字体颜色-->
+    <color name="base_text_color_595959">#595959</color>
+    <color name="base_text_color_262626">#262626</color>
+    <color name="base_text_color_27ae61">#27ae61</color>
+
+    <!--字体颜色-->
+    <color name="base_text_color_989898">#989898</color>
+    <!--字体颜色-->
+    <color name="base_text_color_737373">#737373</color>
+
+</resources>

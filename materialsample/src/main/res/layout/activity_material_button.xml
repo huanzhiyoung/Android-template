@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".material.MaterialButtonActivity">
+
+        <!--普通圆角 MaterialButton-->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/materialButton1"
+            style="@style/Button.ColorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_30"
+            android:layout_marginTop="@dimen/dp_16"
+            android:text="10dp 圆角"
+            app:cornerRadius="@dimen/dp_10"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/materialCircle"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- 实现只有文字的圆形按钮 -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/materialCircle"
+            style="@style/Button.ColorPrimary"
+            android:layout_width="@dimen/dp_80"
+            android:layout_height="@dimen/dp_80"
+            android:layout_marginTop="@dimen/dp_16"
+            android:text="Material Circle"
+            app:cornerRadius="@dimen/dp_40"
+            app:layout_constraintLeft_toRightOf="@+id/materialButton1"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- 实现只有ICON样式的按钮 -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/materialCircleIcon"
+            style="@style/Button.ColorPrimary"
+            android:layout_width="@dimen/dp_60"
+            android:layout_height="@dimen/dp_60"
+            android:layout_marginTop="16dp"
+            app:cornerRadius="@dimen/dp_30"
+            app:icon="@drawable/ic_launcher_foreground"
+            app:layout_constraintLeft_toRightOf="@+id/materialButton1"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/materialCircle" />
+
+        <!--普通圆角 MaterialButton-->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/materialButton2"
+            style="@style/Button.ColorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_16"
+            android:text="20dp 圆角"
+            app:cornerRadius="@dimen/dp_20"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/materialCircleIcon"
+            app:layout_constraintTop_toBottomOf="@+id/materialCircle" />
+
+        <!--实现 描边+圆角+icon 样式-->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/materialButtonWhite"
+            style="@style/Button.ColorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_20"
+            android:backgroundTint="@color/white"
+            android:text="Material Button"
+            android:textColor="@color/base_blue"
+            app:cornerRadius="@dimen/dp_20"
+            app:icon="@drawable/ic_add"
+            app:iconPadding="@dimen/dp_10"
+            app:iconTintMode="multiply"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/materialCircleStroke"
+            app:layout_constraintTop_toBottomOf="@+id/materialCircleIcon"
+            app:strokeColor="@color/base_blue"
+            app:strokeWidth="@dimen/dp_3" />
+
+        <!-- 实现只有文字的圆形+ 描边 按钮 -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/materialCircleStroke"
+            style="@style/Button"
+            android:layout_width="@dimen/dp_80"
+            android:layout_height="@dimen/dp_80"
+            android:layout_marginTop="@dimen/dp_16"
+            android:backgroundTint="@color/white"
+            android:text="Material Circle"
+            android:textColor="@color/base_blue"
+            app:cornerRadius="@dimen/dp_40"
+            app:layout_constraintLeft_toRightOf="@+id/materialButtonWhite"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/materialCircleIcon"
+            app:strokeColor="@color/base_blue"
+            app:strokeWidth="@dimen/dp_3" />
+
+        <!--实现 描边+圆角 样式-->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/materialButton3"
+            style="@style/Button.ColorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10"
+            android:text="20dp 圆角,3dp描边"
+            app:cornerRadius="@dimen/dp_20"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/materialCircleStroke"
+            app:strokeColor="@color/base_red"
+            app:strokeWidth="@dimen/dp_3" />
+
+        <!--实现圆角前置图标-->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/materialButton4"
+            style="@style/Button.ColorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10"
+            android:text="图标"
+            app:cornerRadius="@dimen/dp_10"
+            app:icon="@drawable/ic_launcher_foreground"
+            app:iconPadding="@dimen/dp_20"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/materialButton3" />
+
+        <!--实现圆角后置着色图标-->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/materialButton5"
+            style="@style/Button.ColorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10"
+            android:text="后置着色"
+            app:cornerRadius="@dimen/dp_10"
+            app:icon="@drawable/ic_launcher_foreground"
+            app:iconGravity="end"
+            app:iconPadding="@dimen/dp_20"
+            app:iconTint="@color/base_red"
+            app:iconTintMode="src_in"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/materialButton4" />
+
+        <!--实现组合的MaterialButton-->
+        <com.google.android.material.button.MaterialButtonToggleGroup
+            android:id="@+id/toggleGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/textSize_20"
+            app:checkedButton="@id/btn1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/materialButton5"
+            app:singleSelection="true">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn1"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选项一"
+                android:textSize="@dimen/textSize_16" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn2"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选项二"
+                android:textSize="@dimen/textSize_16" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn3"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选项三"
+                android:textSize="@dimen/textSize_16" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn4"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选项四"
+                android:textSize="@dimen/textSize_16" />
+
+        </com.google.android.material.button.MaterialButtonToggleGroup>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

@@ -1,0 +1,32 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+        maven { url "https://jitpack.io" }
+        jcenter()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url "https://jitpack.io" }
+        jcenter()
+    }
+}
+rootProject.name = "TestDemo"
+include ':app'
+include ':lePrinter'
+include ':pay'
+include ':aidl'
+include ':span'
+include ':kotlin'
+include ':regex'
+include ':base'
+include ':common'
+include ':print'
+include ':image'
+include ':assample'
+include ':materialsample'

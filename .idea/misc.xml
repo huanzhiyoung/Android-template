@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/readboy/practiceProject/000Test/app/src/main/res/layout/activity_fullscreen.xml" value="0.2786458333333333" />
+        <entry key="..\:/readboy/practiceProject/000Test/app/src/main/res/layout/activity_main.xml" value="0.30052083333333335" />
+        <entry key="..\:/readboy/practiceProject/000Test/assample/src/main/res/layout/activity_fullscreen.xml" value="0.29635416666666664" />
+        <entry key="..\:/readboy/practiceProject/000Test/image/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3125" />
+        <entry key="..\:/readboy/practiceProject/000Test/image/src/main/res/drawable/ic_launcher_background.xml" value="0.3125" />
+        <entry key="..\:/readboy/practiceProject/000Test/image/src/main/res/layout/activity_main.xml" value="0.30052083333333335" />
+        <entry key="..\:/readboy/practiceProject/000Test/image/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3125" />
+        <entry key="..\:/readboy/practiceProject/000Test/lePrinter/src/main/res/layout/activity_main.xml" value="0.30052083333333335" />
+        <entry key="..\:/readboy/practiceProject/000Test/materialsample/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3125" />
+        <entry key="..\:/readboy/practiceProject/000Test/materialsample/src/main/res/drawable/ic_launcher_background.xml" value="0.203" />
+        <entry key="..\:/readboy/practiceProject/000Test/materialsample/src/main/res/layout/activity_main.xml" value="0.30052083333333335" />
+        <entry key="..\:/readboy/practiceProject/000Test/materialsample/src/main/res/layout/activity_material_button.xml" value="0.5" />
+        <entry key="..\:/readboy/practiceProject/000Test/materialsample/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.203" />
+        <entry key="..\:/readboy/practiceProject/000Test/print/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.214" />
+        <entry key="..\:/readboy/practiceProject/000Test/print/src/main/res/drawable/ic_launcher_background.xml" value="0.214" />
+        <entry key="..\:/readboy/practiceProject/000Test/print/src/main/res/layout/activity_main.xml" value="0.30052083333333335" />
+        <entry key="..\:/readboy/practiceProject/000Test/print/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.214" />
+        <entry key="..\:/readboy/practiceProject/000Test/print/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.214" />
+        <entry key="..\:/readboy/practiceProject/000Test/regex/src/main/res/layout/activity_main.xml" value="0.1875" />
+        <entry key="..\:/readboy/practiceProject/000Test/span/src/main/res/layout/activity_main.xml" value="0.2786458333333333" />
+        <entry key="..\:/software/Android/Sdk/platforms/android-32/data/res/layout/simple_list_item_1.xml" value="0.30052083333333335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
